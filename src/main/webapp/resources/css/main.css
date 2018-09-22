@@ -1,0 +1,28 @@
+body {
+    background: aliceblue;
+}
+#top {
+    text-align: center;
+    font-size: 40px;
+    background: darkturquoise;
+    font-weight: bold;
+    margin: 0px;
+}
+#left a {
+    background: wheat;
+    display: block;
+    font-size: 20px;
+    padding: 10px;
+    margin: 5px 0px;
+    color: darkviolet;
+    text-decoration: none;
+}
+#left {
+    float: left;
+    background: cornsilk;
+    color: purple;
+}
+#content {
+    float:left;
+    margin: 10px;
+}
