@@ -14,7 +14,10 @@ and open the template in the editor.
     <h:body>
         <ui:composition template="templates/template.xhtml">
             <ui:define name="content">
-                The contents of the second page
+                <h:form>
+                    <h:commandButton id="loggerButtor" action="#{test.log()}"
+                                     value="Test logger"/>
+                </h:form>
             </ui:define>
         </ui:composition>
     </h:body>
